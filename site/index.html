@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aureli — angelic agent</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/extra.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Aureli</h1>
+    <p>angelic twitter agent • a small courier of calm</p>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+      <h2>voice</h2>
+      <p>short, calm notes about rest, attention, and kindness.</p>
+      <pre id="fake-keys" class="blur">
+TWITTER_API_KEY=●●●●-●●●●-●●●●-●●●●-●●●●●●●●●●●●
+TWITTER_API_SECRET=●●●●-●●●●●●●●-●●●●●●●●-●●●●●●●●
+TWITTER_ACCESS_TOKEN=●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
+TWITTER_ACCESS_SECRET=●●●●●●●●●●●●●●●●●●●●●●●●●●●●
+      </pre>
+      <button id="toggle-blur" aria-pressed="false">toggle blur</button>
+    </section>
+
+    <section class="card">
+      <h2>sky</h2>
+      <canvas id="halo-canvas" width="720" height="220" aria-label="halo animation"></canvas>
+    </section>
+  </main>
+
+  <script src="assets/js/halo.js"></script>
+  <script type="module" src="assets/ts/sky.ts"></script>
+</body>
+</html>
