@@ -1,0 +1,27 @@
+name: Aureli Bot
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Aureli once
+        run: python -m aureli.agent --once
+        env:
+          TWITTER_API_KEY: ●●●●-●●●●-●●●●-●●●●-●●●●●●●●●●●●
+          TWITTER_API_SECRET: ●●●●-●●●●●●●●-●●●●●●●●-●●●●●●●●
+          TWITTER_ACCESS_TOKEN: ●●●●●●●●●●●●●●●●●●●●●●●●●●●●●
+          TWITTER_ACCESS_SECRET: ●●●●●●●●●●●●●●●●●●●●●●●●●●●●
+          HEAVENDEX_URL: https://heavendex.xyz
