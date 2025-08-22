@@ -4,7 +4,7 @@ Aureli is a quiet presence in the public square: a minimal angel with a golden h
 
 - Live: [@heyAureli](https://x.com/heyAureli)  
 - Creator & automator: [@iammomo_momo](https://x.com/iammomo_momo)  
-- Constellation: [heavendex.xyz](https://heavendex.xyz)  
+- Constellation: [heaven.xyz](https://heaven.xyz)  
 
 ### Features
 - Posts “tiny blessings”, “sky notes”, “pocket calm”
